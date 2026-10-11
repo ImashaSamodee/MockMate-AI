@@ -1,0 +1,39 @@
+[
+  {
+    "id": "prof_1791709833124",
+    "name": "Imasha Samodee",
+    "email": "imashasamodee@gmail.com",
+    "jobRole": "Full Stack Web Developer",
+    "experienceLevel": "Junior (1-2 years)",
+    "bio": "Computer Science graduate passionate about full stack development. Interested in learning new technologies and building real-world projects.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "skills": [
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "HTML & CSS",
+      "MongoDB"
+    ],
+    "areasOfInterest": [
+      "Web Development",
+      "System Design",
+      "Database",
+      "API Development",
+      "DevOps"
+    ],
+    "preferences": {
+      "theme": "light",
+      "mockInterviewVoice": "en-US-Neural (Studio AI)",
+      "codeEditorTheme": "vs-dark",
+      "emailNotifications": true,
+      "soundEffects": true
+    },
+    "privacy": {
+      "publicProfile": true,
+      "shareScoresWithRecruiters": false
+    },
+    "createdAt": "2026-09-01T00:00:00.000Z",
+    "updatedAt": "2026-10-11T09:15:51.578Z",
+    "passwordUpdated": "2026-10-11T09:14:50.463Z"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "cert_seed_1",
+    "certificateId": "MM-FS-2026-9842",
+    "userEmail": "imashasamodee@gmail.com",
+    "userName": "Imasha Samodee",
+    "assessmentId": "react-frontend-specialist",
+    "title": "Senior Full Stack Engineering Proficiency",
+    "level": "Senior Level (Verified)",
+    "category": "Web Development",
+    "score": "88% Technical Mastery",
+    "numericScore": 88,
+    "issueDate": "October 2026",
+    "issueDateIso": "2026-10-01T00:00:00.000Z",
+    "skills": [
+      "React 19",
+      "Node.js",
+      "System Architecture",
+      "REST APIs",
+      "State Management"
+    ],
+    "issuer": "MockMate AI Certification Board",
+    "status": "active"
+  },
+  {
+    "id": "cert_seed_2",
+    "certificateId": "MM-SD-2026-7731",
+    "userEmail": "imashasamodee@gmail.com",
+    "userName": "Imasha Samodee",
+    "assessmentId": "system-design-proficiency",
+    "title": "Distributed System Design & Architecture",
+    "level": "Staff Level Ownership",
+    "category": "System Design",
+    "score": "82% Technical Mastery",
+    "numericScore": 82,
+    "issueDate": "October 2026",
+    "issueDateIso": "2026-10-04T00:00:00.000Z",
+    "skills": [
+      "Load Balancers",
+      "Redis Caching",
+      "Microservices",
+      "Database Sharding",
+      "Kafka"
+    ],
+    "issuer": "MockMate AI Certification Board",
+    "status": "active"
+  },
+  {
+    "id": "cert_seed_3",
+    "certificateId": "MM-JS-2026-6419",
+    "userEmail": "imashasamodee@gmail.com",
+    "userName": "Imasha Samodee",
+    "assessmentId": "javascript-runtime-core",
+    "title": "Advanced JavaScript (ES6+ & V8 Runtime)",
+    "level": "Exceptional (Top 5%)",
+    "category": "Programming",
+    "score": "91% Technical Mastery",
+    "numericScore": 91,
+    "issueDate": "September 2026",
+    "issueDateIso": "2026-09-15T00:00:00.000Z",
+    "skills": [
+      "V8 Engine",
+      "Event Loop",
+      "Closures",
+      "Promises & Async",
+      "Memory Optimization"
+    ],
+    "issuer": "MockMate AI Certification Board",
+    "status": "active"
+  },
+  {
+    "id": "cert_seed_4",
+    "certificateId": "MM-BH-2026-4410",
+    "userEmail": "imashasamodee@gmail.com",
+    "userName": "Imasha Samodee",
+    "assessmentId": "executive-behavioral-leadership",
+    "title": "Executive Behavioral & STAR Communication",
+    "level": "Staff Level Ownership",
+    "category": "Leadership",
+    "score": "85% Communication Clarity",
+    "numericScore": 85,
+    "issueDate": "September 2026",
+    "issueDateIso": "2026-09-22T00:00:00.000Z",
+    "skills": [
+      "STAR Method",
+      "Conflict Resolution",
+      "Blameless Post-Mortems",
+      "Technical Mentorship"
+    ],
+    "issuer": "MockMate AI Certification Board",
+    "status": "active"
+  },
+  {
+    "id": "cert_1791707521935",
+    "certificateId": "MM-ND-2026-NDSP",
+    "userEmail": "imashasamodee@gmail.com",
+    "userName": "Imasha Samodee",
+    "assessmentId": "node-backend-architect",
+    "title": "Senior Node.js Backend Engineering Proficiency",
+    "level": "Senior Level (Verified)",
+    "category": "Backend",
+    "score": "100% Technical Mastery",
+    "numericScore": 100,
+    "issueDate": "October 2026",
+    "issueDateIso": "2026-10-11T08:32:01.955Z",
+    "skills": [
+      "Node.js",
+      "libuv Event Loop",
+      "Streams & Backpressure",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "issuer": "MockMate AI Certification Board",
+    "status": "active"
+  }
+]
