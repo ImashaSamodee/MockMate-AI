@@ -35,8 +35,10 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-64 bg-white border-r border-gray-100 h-screen flex flex-col justify-between sticky top-0 shrink-0 select-none z-30 overflow-y-auto">
-      <div className="p-5 pb-6">
+    <div className="w-64 bg-white border-r border-gray-100 h-screen flex flex-col justify-between sticky top-0 shrink-0 select-none z-30">
+      
+      {/* Top Section: Logo & Nav Items */}
+      <div className="p-5 pb-2 overflow-y-auto flex-1">
         {/* Logo */}
         <div 
           onClick={() => navigate('/')} 
@@ -53,7 +55,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        {/* Navigation Items (Matches Reference Screenshot) */}
+        {/* Navigation Items */}
         <nav className="space-y-1.5">
           {navItems.map((item) => (
             <NavLink
@@ -71,18 +73,21 @@ const Sidebar = () => {
               <span>{item.name}</span>
             </NavLink>
           ))}
-
-          {/* Logout Action right below Settings */}
-          <button 
-            type="button"
-            onClick={handleLogout}
-            className="flex items-center gap-3 px-4 py-2.5 text-red-600 hover:bg-red-50 rounded-2xl w-full font-semibold transition-colors text-sm cursor-pointer mt-1"
-          >
-            <LogOut size={18} />
-            <span>Logout</span>
-          </button>
         </nav>
       </div>
+
+      {/* Bottom Section: Pinned Logout Button */}
+      <div className="p-5 pt-3 border-t border-gray-100/70">
+        <button 
+          type="button"
+          onClick={handleLogout}
+          className="flex items-center gap-3 px-4 py-2.5 text-red-600 hover:bg-red-50 rounded-2xl w-full font-semibold transition-colors text-sm cursor-pointer"
+        >
+          <LogOut size={18} />
+          <span>Logout</span>
+        </button>
+      </div>
+
     </div>
   );
 };
