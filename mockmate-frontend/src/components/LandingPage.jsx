@@ -109,76 +109,76 @@ const LandingPage = () => {
       </header>
 
       {/* -------------------- 2. HERO SECTION -------------------- */}
-      <section id="home" className="relative pt-8 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+      <section id="home" className="relative pt-6 pb-12 lg:pt-10 lg:pb-16 overflow-hidden">
         {/* Subtle background glow */}
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-emerald-100/40 rounded-full blur-3xl pointer-events-none -z-10" />
         <div className="absolute top-1/3 left-10 w-72 h-72 bg-teal-50/60 rounded-full blur-3xl pointer-events-none -z-10" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          <div className="grid lg:grid-cols-12 gap-10 lg:gap-8 items-center">
             
             {/* Left Content Column */}
-            <div className="lg:col-span-6 xl:col-span-6 space-y-8">
+            <div className="lg:col-span-6 xl:col-span-6 space-y-6">
               
-              <div className="space-y-4">
-                <h1 className="text-5xl sm:text-6xl lg:text-[68px] font-black tracking-tight text-gray-900 leading-[1.08]">
+              <div className="space-y-3">
+                <h1 className="text-3xl sm:text-4xl lg:text-[46px] font-black tracking-tight text-gray-900 leading-[1.15]">
                   Ace Your <br />
                   Next Interview <br />
                   with <span className="text-[#059669]">AI.</span>
                 </h1>
                 
-                <p className="text-gray-600 text-lg sm:text-xl font-normal leading-relaxed max-w-lg pt-2">
+                <p className="text-gray-600 text-sm sm:text-base font-normal leading-relaxed max-w-md pt-1">
                   Practice real interview questions, get instant AI feedback, and build the confidence to land your dream job.
                 </p>
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap items-center gap-4 pt-2">
+              <div className="flex flex-wrap items-center gap-3.5 pt-1">
                 <button
                   onClick={handleCta}
-                  className="bg-[#064E3B] hover:bg-[#085a44] text-white font-semibold text-base px-8 py-4 rounded-full transition-all shadow-lg shadow-emerald-950/25 hover:shadow-xl hover:shadow-emerald-950/30 flex items-center gap-2 group cursor-pointer"
+                  className="bg-[#064E3B] hover:bg-[#085a44] text-white font-semibold text-sm sm:text-[15px] px-6 py-3 rounded-full transition-all shadow-md shadow-emerald-950/20 hover:shadow-lg hover:shadow-emerald-950/25 flex items-center gap-2 group cursor-pointer"
                 >
                   <span>Get Started Free</span>
-                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </button>
 
                 <button
                   onClick={() => setDemoModalOpen(true)}
-                  className="bg-transparent hover:bg-gray-100/80 text-gray-800 font-semibold text-base px-6 py-4 rounded-full transition-colors flex items-center gap-2.5 cursor-pointer"
+                  className="bg-transparent hover:bg-gray-100/80 text-gray-800 font-semibold text-sm sm:text-[15px] px-5 py-3 rounded-full transition-colors flex items-center gap-2 cursor-pointer"
                 >
-                  <div className="w-7 h-7 rounded-full bg-gray-200/80 flex items-center justify-center text-gray-800">
-                    <Play size={14} className="fill-current ml-0.5" />
+                  <div className="w-6 h-6 rounded-full bg-gray-200/80 flex items-center justify-center text-gray-800">
+                    <Play size={12} className="fill-current ml-0.5" />
                   </div>
                   <span>Watch Demo</span>
                 </button>
               </div>
 
               {/* Social Proof */}
-              <div className="pt-4 flex items-center gap-4">
+              <div className="pt-2 flex items-center gap-3.5">
                 {/* Overlapping Avatar Stack */}
-                <div className="flex -space-x-3 overflow-hidden p-0.5">
+                <div className="flex -space-x-2.5 overflow-hidden p-0.5">
                   <img
-                    className="inline-block h-11 w-11 rounded-full ring-2 ring-white object-cover shadow-sm"
+                    className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-xs"
                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80"
                     alt="Candidate"
                   />
                   <img
-                    className="inline-block h-11 w-11 rounded-full ring-2 ring-white object-cover shadow-sm"
+                    className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-xs"
                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80"
                     alt="Candidate"
                   />
                   <img
-                    className="inline-block h-11 w-11 rounded-full ring-2 ring-white object-cover shadow-sm"
+                    className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-xs"
                     src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&auto=format&fit=crop&q=80"
                     alt="Candidate"
                   />
                   <img
-                    className="inline-block h-11 w-11 rounded-full ring-2 ring-white object-cover shadow-sm"
+                    className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-xs"
                     src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80"
                     alt="Candidate"
                   />
                   <img
-                    className="inline-block h-11 w-11 rounded-full ring-2 ring-white object-cover shadow-sm"
+                    className="inline-block h-9 w-9 rounded-full ring-2 ring-white object-cover shadow-xs"
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80"
                     alt="Candidate"
                   />
@@ -187,13 +187,13 @@ const LandingPage = () => {
                 {/* Rating & text */}
                 <div className="text-left">
                   <div className="flex items-center gap-1.5">
-                    <span className="font-extrabold text-gray-900 text-sm sm:text-base">10,000+</span>
-                    <span className="text-xs sm:text-sm text-gray-500 font-medium">smart professionals</span>
+                    <span className="font-extrabold text-gray-900 text-xs sm:text-sm">10,000+</span>
+                    <span className="text-[11px] sm:text-xs text-gray-500 font-medium">smart professionals</span>
                   </div>
-                  <div className="flex items-center gap-1 text-xs text-gray-500 font-medium mt-0.5">
+                  <div className="flex items-center gap-1 text-[11px] text-gray-500 font-medium mt-0.5">
                     <span>trust MockMate AI</span>
                     <span className="text-amber-500 flex items-center ml-1">
-                      <Star size={12} className="fill-amber-400 text-amber-400" />
+                      <Star size={11} className="fill-amber-400 text-amber-400" />
                       <span className="ml-0.5 font-bold text-gray-800">4.9/5</span>
                     </span>
                   </div>
@@ -202,36 +202,36 @@ const LandingPage = () => {
 
             </div>
 
-            {/* Right Hero Visual Column (Exact match to design screenshot) */}
+            {/* Right Hero Visual Column (Proportionately compact) */}
             <div className="lg:col-span-6 xl:col-span-6 relative">
-              <div className="relative mx-auto max-w-[530px]">
+              <div className="relative mx-auto max-w-[420px]">
                 
                 {/* Main Hero Card Container */}
-                <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-emerald-950/10 border-4 border-white bg-white group">
+                <div className="relative rounded-3xl overflow-hidden shadow-xl shadow-emerald-950/10 border-4 border-white bg-white group">
                   <img
                     src={heroCandidateImg}
                     alt="MockMate AI candidate practicing technical interview"
-                    className="w-full h-[470px] sm:h-[530px] object-cover object-center transform transition-transform duration-700 group-hover:scale-[1.02]"
+                    className="w-full h-[370px] sm:h-[420px] object-cover object-center transform transition-transform duration-700 group-hover:scale-[1.02]"
                   />
                   
-                  {/* Subtle bottom gradient overlay for smooth visual bleed */}
+                  {/* Subtle bottom gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
                 </div>
 
                 {/* Floating Badge 1: "AI Interviewer" + Animated Audio Waveform */}
-                <div className="absolute -top-3 left-4 sm:-left-6 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 sm:p-4 shadow-xl shadow-black/10 border border-white/80 animate-float-card flex flex-col gap-2 z-20 min-w-[190px]">
-                  <div className="flex items-center gap-2.5">
-                    <div className="w-8 h-8 rounded-xl bg-blue-50 border border-blue-200/60 flex items-center justify-center text-blue-600 shadow-sm">
-                      <Bot size={18} />
+                <div className="absolute -top-2.5 left-2 sm:-left-4 bg-white/95 backdrop-blur-md rounded-2xl p-3 shadow-lg shadow-black/10 border border-white/80 animate-float-card flex flex-col gap-1.5 z-20 min-w-[170px]">
+                  <div className="flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-lg bg-blue-50 border border-blue-200/60 flex items-center justify-center text-blue-600 shadow-xs">
+                      <Bot size={15} />
                     </div>
                     <div>
-                      <h4 className="text-xs sm:text-sm font-bold text-gray-900">AI Interviewer</h4>
-                      <p className="text-[10px] text-emerald-600 font-medium">Active Listening</p>
+                      <h4 className="text-xs font-bold text-gray-900">AI Interviewer</h4>
+                      <p className="text-[9px] text-emerald-600 font-medium">Active Listening</p>
                     </div>
                   </div>
 
                   {/* Audio Waveform visualization */}
-                  <div className="flex items-center justify-center gap-1 h-7 px-2 bg-slate-50/80 rounded-xl">
+                  <div className="flex items-center justify-center gap-1 h-6 px-2 bg-slate-50/80 rounded-lg">
                     <div className="w-1 bg-[#10B981] rounded-full animate-wave-bar" style={{ animationDelay: '0.1s' }} />
                     <div className="w-1 bg-[#059669] rounded-full animate-wave-bar" style={{ animationDelay: '0.4s' }} />
                     <div className="w-1 bg-[#047857] rounded-full animate-wave-bar" style={{ animationDelay: '0.2s' }} />
@@ -243,38 +243,38 @@ const LandingPage = () => {
                   </div>
                 </div>
 
-                {/* Floating Badge 2: Checklist (Real Questions, Instant Feedback, Improve Skills) */}
-                <div className="absolute top-[38%] -left-3 sm:-left-10 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl shadow-black/10 border border-white/80 animate-float-delayed z-20 space-y-2.5 min-w-[200px]">
-                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-bold text-gray-800">
-                    <div className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
-                      <Check size={13} strokeWidth={3} />
+                {/* Floating Badge 2: Checklist */}
+                <div className="absolute top-[35%] -left-2 sm:-left-6 bg-white/95 backdrop-blur-md rounded-2xl p-3 shadow-lg shadow-black/10 border border-white/80 animate-float-delayed z-20 space-y-2 min-w-[170px]">
+                  <div className="flex items-center gap-2 text-xs font-bold text-gray-800">
+                    <div className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
+                      <Check size={11} strokeWidth={3} />
                     </div>
                     <span>Real Questions</span>
                   </div>
 
-                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-bold text-gray-800">
-                    <div className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
-                      <Check size={13} strokeWidth={3} />
+                  <div className="flex items-center gap-2 text-xs font-bold text-gray-800">
+                    <div className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
+                      <Check size={11} strokeWidth={3} />
                     </div>
                     <span>Instant Feedback</span>
                   </div>
 
-                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-bold text-gray-800">
-                    <div className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
-                      <Check size={13} strokeWidth={3} />
+                  <div className="flex items-center gap-2 text-xs font-bold text-gray-800">
+                    <div className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
+                      <Check size={11} strokeWidth={3} />
                     </div>
                     <span>Improve Skills</span>
                   </div>
                 </div>
 
-                {/* Floating Badge 3: Teal/Green Square Growth Badge */}
-                <div className="absolute -bottom-4 right-4 sm:-right-4 bg-gradient-to-br from-[#10B981] to-[#047857] rounded-2xl p-4 shadow-xl shadow-emerald-950/20 text-white z-20 flex items-center gap-3 animate-float-card">
-                  <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
-                    <TrendingUp size={22} className="text-white" />
+                {/* Floating Badge 3: Score Surge */}
+                <div className="absolute -bottom-3 right-2 sm:-right-3 bg-gradient-to-br from-[#10B981] to-[#047857] rounded-2xl p-3 shadow-lg shadow-emerald-950/20 text-white z-20 flex items-center gap-2.5 animate-float-card">
+                  <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center">
+                    <TrendingUp size={18} className="text-white" />
                   </div>
                   <div>
-                    <div className="text-[11px] font-medium text-emerald-100 uppercase tracking-wider">Score Surge</div>
-                    <div className="text-lg font-black text-white">+88% Pass Rate</div>
+                    <div className="text-[10px] font-medium text-emerald-100 uppercase tracking-wider">Score Surge</div>
+                    <div className="text-base font-black text-white">+88% Pass Rate</div>
                   </div>
                 </div>
 
